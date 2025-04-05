@@ -1,6 +1,7 @@
 .nav-bar {
   grid-template-columns: auto auto auto;
-  min-height: 6.25rem;
+  min-height: 1rem;
+  max-height: 5rem;
 }
 
 .nav-bar-logo {
@@ -11,19 +12,20 @@
 }
 
 .nav-bar-logo img {
-  max-width: 15.625rem;
+  max-width: 10.625rem;
 }
 
 .nav-bar-hamburger {
   grid-column: 2;
   display: none;
   cursor: pointer;
-  color: #495E57;
+  color: #495e57;
   transition: background-color 0.5s;
 }
 
 .nav-bar-hamburger:hover {
-  background-color: #F4CE14;
+  color: #f4ce14;
+  border-bottom: 3.5px solid #f4ce14;
 }
 
 .nav-bar-links {
@@ -48,18 +50,19 @@
 .nav-bar-links a {
   display: flex;
   align-items: center;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
   text-transform: uppercase;
   transition: background-color 0.5s;
 }
 
-.current-location, 
-.nav-bar-links a:hover, 
+.current-location,
+.nav-bar-links a:hover,
 .nav-bar-links a:focus {
-  background-color: #F4CE14;
+  color: #f4ce14;
+  border-bottom: 3.5px solid #f4ce14;
 }
 
 @media only screen and (max-width: 992px) {
@@ -82,7 +85,7 @@
     height: 100vh;
     top: 0;
     left: -50%;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.2);
     z-index: 100;
   }
