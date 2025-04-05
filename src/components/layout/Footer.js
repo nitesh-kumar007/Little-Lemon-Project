@@ -21,9 +21,18 @@ const contacts = [
   {
     icon: faLocationDot,
     info: "Lou Malnati s Pizzeria, 805 S, Chicago, IL 60605, USA",
+    link: "https://www.google.com/maps?q=Lou+Malnati+s+Pizzeria,+805+S,+Chicago,+IL+60605,+USA",
   },
-  { icon: faPhone, info: "(312) 786-1000" },
-  { icon: faEnvelope, info: "helpline@littlelemonrestaurant.com" },
+  {
+    icon: faPhone,
+    info: "(312) 786-1000",
+    link: "tel:+13127861000",
+  },
+  {
+    icon: faEnvelope,
+    info: "helpline@littlelemonrestaurant.com",
+    link: "mailto:helpline@littlelemonrestaurant.com",
+  },
 ];
 
 const socials = [
@@ -61,7 +70,10 @@ const Footer = () => {
           <address>
             {contacts.map((contact, index) => (
               <p key={index}>
-                <FontAwesomeIcon icon={contact.icon} /> {contact.info}
+                <FontAwesomeIcon icon={contact.icon} />
+                <a href={contact.link} target='_blank' rel='noreferrer'>
+                  {contact.info}
+                </a>
               </p>
             ))}
           </address>
