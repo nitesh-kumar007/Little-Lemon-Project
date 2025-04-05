@@ -9,7 +9,7 @@ const customers = [
   {
     fullName: "Rahul Arora",
     image: customer1Image,
-    rating: [1, 1, 1, 1, 0.5],
+    rating: [1, 1, 1, 1, 0],
     says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
       eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
@@ -23,14 +23,14 @@ const customers = [
   {
     fullName: "Nitin Rajpoot",
     image: customer3Image,
-    rating: [1, 1, 1, 1, 0.5],
+    rating: [1, 1, 1, 0, 0],
     says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
       eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     fullName: "Jason Marcos",
     image: customer4Image,
-    rating: [1, 1, 1, 1],
+    rating: [1, 1, 0.5, 0, 0],
     says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
       eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
