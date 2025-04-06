@@ -6,7 +6,7 @@ const UnderConstruction = () => {
   return (
     <div className='container under-construction'>
       <FontAwesomeIcon icon={faPersonDigging} size='3x' />
-      <h2>Page under Maintanance</h2>
+      <h1>Under Maintanance</h1>
     </div>
   );
 };

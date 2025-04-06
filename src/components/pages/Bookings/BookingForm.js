@@ -86,6 +86,7 @@ const BookingForm = ({ availableTimes, dispatchOnDateChange, submitData }) => {
 
   return (
     <form onSubmit={handleFormSubmit}>
+      <h2>Table reservation</h2>
       <FormField
         label={
           <>
