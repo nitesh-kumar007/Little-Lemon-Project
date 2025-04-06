@@ -6,6 +6,8 @@ import Bookings from "./components/pages/Bookings";
 import ConfirmedBooking from "./components/pages/Bookings/ConfirmedBooking";
 import NotFound from "./components/pages/NotFound/index";
 import UnderConstruction from "./components/pages/UnderConstruction/index";
+import About from "./components/pages/About/About";
+import LoginPage from "./components/pages/Login_Registration/LogInPage";
 
 const App = () => {
   return (
@@ -13,10 +15,7 @@ const App = () => {
       <Layout>
         <Routes>
           <Route path={pages.get("home").path} element={<Home />} />
-          <Route
-            path={pages.get("about").path}
-            element={<UnderConstruction />}
-          />
+          <Route path={pages.get("about").path} element={<About />} />
           <Route
             path={pages.get("menu").path}
             element={<UnderConstruction />}
@@ -30,10 +29,7 @@ const App = () => {
             path={pages.get("orderOnline").path}
             element={<UnderConstruction />}
           />
-          <Route
-            path={pages.get("login").path}
-            element={<UnderConstruction />}
-          />
+          <Route path={pages.get("login").path} element={<LoginPage />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </Layout>

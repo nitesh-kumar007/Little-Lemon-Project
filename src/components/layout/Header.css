@@ -62,7 +62,7 @@
 .nav-bar-links a:hover,
 .nav-bar-links a:focus {
   color: #f4ce14;
-  border-bottom: 3.5px solid #f4ce14;
+  border: 1.875px solid #495e57;
 }
 
 @media only screen and (max-width: 992px) {
