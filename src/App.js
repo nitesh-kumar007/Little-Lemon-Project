@@ -34,7 +34,7 @@ const App = () => {
       <Toaster />
       <Layout>
         <Routes>
-          <Route path={pages.get("home").path} element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path={pages.get("about").path} element={<About />} />
           <Route
             path={pages.get("menu").path}
