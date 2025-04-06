@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Little-Lemon-Project/static/css/main.b35172d7.css",
-    "main.js": "/Little-Lemon-Project/static/js/main.3e519b87.js",
-    "static/js/453.99c1801e.chunk.js": "/Little-Lemon-Project/static/js/453.99c1801e.chunk.js",
-    "static/media/restaurant-food.webp": "/Little-Lemon-Project/static/media/restaurant-food.9293b6e3eccc512da540.webp",
-    "static/media/chefs-mario-and-adrian_a.jpg": "/Little-Lemon-Project/static/media/chefs-mario-and-adrian_a.baf0d2e31dc6977f913f.jpg",
-    "static/media/chefs-mario-and-adrian_b.jpg": "/Little-Lemon-Project/static/media/chefs-mario-and-adrian_b.5d8cccd399ab68c5c40b.jpg",
-    "static/media/greek-salad.jpg": "/Little-Lemon-Project/static/media/greek-salad.25fc793faeb3d58ed9fb.jpg",
-    "static/media/bruschetta.jpg": "/Little-Lemon-Project/static/media/bruschetta.d54e450bda5efcf06010.jpg",
-    "static/media/lemon-dessert.jpg": "/Little-Lemon-Project/static/media/lemon-dessert.4c516404495a53fa1c71.jpg",
-    "static/media/logo-white.png": "/Little-Lemon-Project/static/media/logo-white.d09eb2af6c5a2225eedf.png",
-    "static/media/customer2.jpg": "/Little-Lemon-Project/static/media/customer2.0244ed52a2ac9b79041f.jpg",
-    "static/media/customer3.jpg": "/Little-Lemon-Project/static/media/customer3.63dbf12d64740703aa29.jpg",
-    "static/media/customer4.jpg": "/Little-Lemon-Project/static/media/customer4.5cff0240bf6a1f865606.jpg",
-    "static/media/customer1.jpg": "/Little-Lemon-Project/static/media/customer1.174377f658caa5a2217b.jpg",
-    "static/media/logo.png": "/Little-Lemon-Project/static/media/logo.e68246686f716ff6e5d8.png",
-    "index.html": "/Little-Lemon-Project/index.html",
-    "main.b35172d7.css.map": "/Little-Lemon-Project/static/css/main.b35172d7.css.map",
-    "main.3e519b87.js.map": "/Little-Lemon-Project/static/js/main.3e519b87.js.map",
-    "453.99c1801e.chunk.js.map": "/Little-Lemon-Project/static/js/453.99c1801e.chunk.js.map"
+    "main.css": "/static/css/main.b35172d7.css",
+    "main.js": "/static/js/main.6efd0424.js",
+    "static/js/453.99c1801e.chunk.js": "/static/js/453.99c1801e.chunk.js",
+    "static/media/restaurant-food.webp": "/static/media/restaurant-food.9293b6e3eccc512da540.webp",
+    "static/media/chefs-mario-and-adrian_a.jpg": "/static/media/chefs-mario-and-adrian_a.baf0d2e31dc6977f913f.jpg",
+    "static/media/chefs-mario-and-adrian_b.jpg": "/static/media/chefs-mario-and-adrian_b.5d8cccd399ab68c5c40b.jpg",
+    "static/media/greek-salad.jpg": "/static/media/greek-salad.25fc793faeb3d58ed9fb.jpg",
+    "static/media/bruschetta.jpg": "/static/media/bruschetta.d54e450bda5efcf06010.jpg",
+    "static/media/lemon-dessert.jpg": "/static/media/lemon-dessert.4c516404495a53fa1c71.jpg",
+    "static/media/logo-white.png": "/static/media/logo-white.d09eb2af6c5a2225eedf.png",
+    "static/media/customer2.jpg": "/static/media/customer2.0244ed52a2ac9b79041f.jpg",
+    "static/media/customer3.jpg": "/static/media/customer3.63dbf12d64740703aa29.jpg",
+    "static/media/customer4.jpg": "/static/media/customer4.5cff0240bf6a1f865606.jpg",
+    "static/media/customer1.jpg": "/static/media/customer1.174377f658caa5a2217b.jpg",
+    "static/media/logo.png": "/static/media/logo.e68246686f716ff6e5d8.png",
+    "index.html": "/index.html",
+    "main.b35172d7.css.map": "/static/css/main.b35172d7.css.map",
+    "main.6efd0424.js.map": "/static/js/main.6efd0424.js.map",
+    "453.99c1801e.chunk.js.map": "/static/js/453.99c1801e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b35172d7.css",
-    "static/js/main.3e519b87.js"
+    "static/js/main.6efd0424.js"
   ]
 }
